@@ -93,6 +93,8 @@ function numberWithCommas(x) {
 		</div>
 		<hr>
 		<div>
+		<h2>Blankable?</h2>
+		<p>When you enter your numbers above and click calculate the numbers below will update. These numbers are based on leaving one march free to fight or reinforce. So for example if you have 5 total marches, the blankable number is 4 marches as either garrison or reinforce, and your shelter.</p>
 		<p>Reinforcment March Size - {numberWithCommas(reinforceMarch)}</p>
 		<p>Garrison/Battle March Size - {numberWithCommas(garrisonMarch)} <span class="small">(Assumes all Rank VIII commanders)</span></p>
 		<p>Blankable Troops all Garrison - {numberWithCommas(parseInt(marches - 1) * garrisonMarch + shelter)}</p>
